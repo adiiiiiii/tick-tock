@@ -1,4 +1,5 @@
 # Project Name
+
 Tick tock
 
 ---
@@ -58,6 +59,9 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to view the active build.
+
+Credentials to login:
+email: 'john@example.com', password: 'password123'
 
 ---
 

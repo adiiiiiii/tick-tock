@@ -6,15 +6,6 @@ import { useRouter } from "next/navigation";
 
 import { Input } from "../../components/ui/input";
 import { Button } from "../../components/ui/button";
-// import {
-//   Card,
-//   CardContent,
-//   CardDescription,
-//   CardHeader,
-//   CardTitle,
-// } from "@/components/ui/card";
-// import { Checkbox } from "@/components/ui/checkbox";
-// import { toast } from "sonner";
 
 export default function LoginPage() {
   const [email, setEmail] = useState<string>();
@@ -95,17 +86,6 @@ export default function LoginPage() {
                 className="w-full"
                 disabled={isLoading}
               />
-            </div>
-
-            <div className="flex items-center">
-              {/* <Checkbox
-                id="remember"
-                checked={rememberMe}
-                onCheckedChange={(checked) => setRememberMe(checked as boolean)}
-              /> */}
-              <label htmlFor="remember" className="ml-2 text-sm text-gray-600">
-                Remember me
-              </label>
             </div>
 
             <Button
