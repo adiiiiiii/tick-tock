@@ -63,15 +63,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to view th
 Credentials to login:
 email: 'john@example.com', password: 'password123'
 
----
 
-## 📝 Assumptions & Notes
-
-- **Authentication Architecture:** The project uses Next-Auth v5 (Auth.js), meaning authentication configuration is handled natively in an isolated `auth.ts` config file.
-- **Styling Utilities:** `clsx` and `tailwind-merge` work jointly via a standard helper utility (commonly exported as `cn`) to dynamically overwrite utility classes without inflating production CSS bundles.
-
----
-
-## ⏱️ Time Spent
-
-- **Total Duration:** 5 hours (From 09:30 to 14:30) Saturday(6-6-26)
